@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="/styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="/images/Vector 2.png" alt="Logo">
+            <img src="/images/Group 1.png" alt="Logo">
+            <img src="/images/Vector 3.png" alt="Logo">
+            <span>Coding Magic</span>
+        </div>
+        <nav>
+            <ul>
+                <li>
+                    <div id="interactive-button"><a href="">Інтерактив</a></div>
+                    <div id="menu" class="hide">
+                        <div class="frame">
+                            <p>Числовий</p>
+                            <p>Ігровий</p>
+                            <p>Ознайомчий</p>
+                        </div>
+                    </div>
+                </li>
+                <li><a href="#">Наша команда</a></li>
+                <li><a href="#">Контакти</a></li>
+            </ul>
+        </nav>
+        <div class="right-section">
+            <div class="toggle-switch">
+                <img src="/images/Group 71.png" alt="">
+            </div>
+            <div class="welcome-text">Вітаємо, User!</div>
+        </div>
+    </header>
+    <!-- <img src="./images/side img/Vector 11 (2).png" alt="" class="v112">
+    <img src="./images/side img/Vector (10).png" alt="" class="v10"> -->
+    <img src="./images/side img/Group 141.png" alt="" class="g141">
+    <img src="./images/side img/Rectangle 31.png" alt="" class="r31">
+    <section class="section">
+        <h2>Популярні інтерактивні ігри</h2>
+        <hr>
+        <h1 class="first-game">Перевір в який рік ти народився</h1>
+            <div class="input-container">
+                <input type="number" id="birthYear" placeholder="Введіть рік народження">
+                <button onclick="checkLeapYear()">
+                    <img src="/images/Group 104.png" alt="">
+                </button>
+                <span id="result" class="result"></span>
+            </div>
+        <hr>
+    </section>
+    <section class="section-2">
+        <h1 class="second-game">Вгадай число яке загадав комп'ютер (1 до 10)</h1>
+            <div class="second-div">
+                <input class="guessing-input" type="number" id="guessInput" placeholder="Введіть число">
+                <button class="second-button" onclick="checkGuess()">
+                    <img src="/images/Group 104.png" alt="">
+                </button>
+                <span id="message" class="message"></span>
+            </div>
+            <hr class="section-2-hr">
+    </section>
+    <script src="/index.js"></script>
+</body>
+</html>
