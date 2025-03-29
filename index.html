@@ -37,11 +37,9 @@
             <div class="welcome-text">Вітаємо, User!</div>
         </div>
     </header>
-    <!-- <img src="./images/side img/Vector 11 (2).png" alt="" class="v112">
-    <img src="./images/side img/Vector (10).png" alt="" class="v10"> -->
     <img src="./images/side img/Group 141.png" alt="" class="g141">
     <img src="./images/side img/Rectangle 31.png" alt="" class="r31">
-    <section class="section">
+    <section class="section1">
         <h2>Популярні інтерактивні ігри</h2>
         <hr>
         <h1 class="first-game">Перевір в який рік ти народився</h1>
@@ -65,6 +63,358 @@
             </div>
             <hr class="section-2-hr">
     </section>
+    
+    <!-- html rodion -->
+    <h1>Камінь - Ножиці - Папір</h1>
+
+    <div class="choices">
+
+        <div class="choice" onclick="play('rock')">
+            <img src="/images/Frame 127.png" alt="Камінь">
+        </div>
+        <div class="choice" onclick="play('scissors')">
+            <img src="/images/Frame 126.png" alt="Ножиці">
+        </div>
+        <div class="choice" onclick="play('paper')">
+            <img src="/images/Frame 128.png" alt="Папір">
+        </div>
+    </div>
+
+    <div class="result"></div>
+
+    <div class="score">
+        <p>Рахунок:</p>
+        <p>Комп'ютер: <span id="computer-score">0</span></p>
+        <p>Ви: <span id="user-score">0</span></p>
+    </div>
+
+    <button class="btn-computer" onclick="computerPlay()">Варіант комп'ютера</button>
+    
+    <hr>
+    <div class="Calculator">
+        <div class="calculator">
+            <h1>Калькулятор</h1>
+
+            <input type="text" class="input-field" id="num1" placeholder="Введіть число" />
+            <input type="text" class="input-field" id="num2" placeholder="Введіть число" />
+
+            <div class="buttons">
+                <div class="block1">
+                    <div class="button" id="plusButton" onclick="setOperator('+')"><a href="#"><img src="/images/Frame 111.png" alt=""></a>
+                    </div>
+                    <div class="button" id="timesButton" onclick="setOperator('*')"><a href="#"><img src="/images/Frame 114.png" alt=""></a>
+                    </div>
+                </div>
+                <div class="block2">
+                    <div class="button" id="minusButton" onclick="setOperator('-')"><a href="#"><img src="/images/Frame 112.png" alt=""></a>
+                    </div>
+                    <div class="button" id="divideButton" onclick="setOperator('/')"><a href="#"><img src="/images/Frame 113.png" alt=""></a>
+                    </div>
+                </div>
+
+            </div>
+            <button class="btn-submit" onclick="calculate()">Результат</button>
+
+            <div class="result">
+                <p>Результат: <span id="result">0</span></p>
+            </div>
+        </div>
+        <hr>
+            <h2>Калькулятор часу</h2>
+            <div class="input-container">
+                <input type="number" id="inputNumber" placeholder="Введіть число">
+                <button class="search-btn" onclick="calculateTime()">
+                    <img src="https://cdn-icons-png.flaticon.com/512/622/622669.png" alt="Search">
+                </button>
+            </div>
+            <div class="output" id="outputTime">-----------------------</div>
+
+
+
+            <!-- html dmytro -->
+
+
+
+            <aside class="aside">
+                <header class="header">
+                    <div class="container">
+                        <div class="inner-contaiballPeremiscennaner">
+                            <div class="content">
+                                <p class="title">Google динозавр</p>
+                                <img class="dinosaur-image" src="./images/Google dino.png" alt="dinosaur">
+                            </div>
+                            <div class="line-container">
+                                <img class="line-image" src="./images/Vector 228.png" alt="line">
+                            </div>
+                        </div>
+                    </div>
+                </header>
+                <nav class="nav-content">
+                    <div class="container_ball">
+                        <div class="footBall_box">
+                            <p class="football_text" >Футбол</p>
+                        </div>
+                        <div class="field" id="field">
+                            <div class="ball" id="ball">
+                                <img class="ball-image" src="./images/football (1) 1.png" alt="ball">
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+                <section class="section">
+                    <div class="container">
+                        <div class="number-input-wrapper">
+                            <div class="number-input-content">
+                                <p class="instruction-text">Введіть 3 числа</p>
+                                <div class="button-group">
+                                    <button id="button_1" class="number-button">Введіть число</button>
+                                    <button id="button_2" class="number-button">Введіть число</button>
+                                    <button id="button_3" class="number-button">Введіть число</button>
+                                </div>
+                                <p id="myParagraph" class="largest-number">Найбільше число, яке ви ввели - (число)</p>
+                            </div>
+                            <div class="decorative-line-wrapper">
+                                <img class="line-image" src="./images/Vector 228.png" alt="line">                 
+                            </div>                   
+                        </div>
+                    </div>
+                </section>
+                <footer class="footer">
+                    <div class="container_box">
+                        <div class="team-member">
+                            <p class="team-title">Наша команда</p>
+                        </div>
+                        <div class="team-container">  
+                            <!-- <div class="slideshow-container"> -->
+                                <div class="buttton_click_slide_box">
+                                    <a class="prev" onclick="plusSlides(-1)">
+                                        <img class="imgForButton" src="./images/Vector 231.png" alt="button">
+                                    </a>
+                                    <div class="use_box">
+                                        <div class="mySlides fade">
+                                            <img class="imgForSlider" src="./images/student_1(1).jpg" alt="imgOleh">
+                                            <div class="text">
+                                                <p class="name">Oleh</p>
+                                                <p class="text_name">Інформація про роботу, яку він/вона виконав/ла</p>
+                                            </div>
+                                        </div>
+                                        <div class="mySlides fade">
+                                            <img class="imgForSlider" src="./images/student_2.jpg" alt="imgRick">
+                                            <div class="text">
+                                                <p class="name">Rick</p>
+                                                <p class="text_name">Інформація про роботу, яку він/вона виконав/ла</p>
+                                            </div>
+                                        </div>
+                                        <div class="mySlides fade">
+                                            <img class="imgForSlider" src="./images/student_3.jpg" alt="imgIhor">
+                                            <div class="text">
+                                                <p class="name">Ihor</p>
+                                                <p class="text_name">Інформація про роботу, яку він/вона виконав/ла</p>
+                                            </div>
+                                        </div>
+                                        <div class="mySlides fade">
+                                            <img class="imgForSlider" src="./images/student_4.jpg" alt="imgMorty">
+                                            <div class="text">
+                                                <p class="name">Morty</p>
+                                                <p class="text_name">Інформація про роботу, яку він/вона виконав/ла</p>
+                                            </div>
+                                        </div>
+                                        <div class="mySlides fade">
+                                            <img class="imgForSlider" src="./images/student_5.jpeg" alt="imgVasia">
+                                            <div class="text">
+                                                <p class="name">Vasia</p>
+                                                <p class="text_name">Інформація про роботу, яку він/вона виконав/ла</p>
+                                            </div>
+                                        </div>
+                                        <div class="mySlides fade">
+                                            <img class="imgForSlider" src="./images/student_6.jpg" alt="imgValera">
+                                            <div class="text">
+                                                <p class="name">Valera</p>
+                                                <p class="text_name">Інформація про роботу, яку він/вона виконав/ла</p>
+                                            </div>
+                                        </div>
+                                        <div class="mySlides fade">
+                                            <img class="imgForSlider" src="./images/student_7.jpg" alt="imgRomko">
+                                            <div class="text">
+                                                <p class="name">Romko</p>
+                                                <p class="text_name">Інформація про роботу, яку він/вона виконав/ла</p>
+                                            </div>
+                                        </div>
+                                        <div class="mySlides fade">
+                                            <img class="imgForSlider" src="./images/student_8.webp" alt="imgDmytro">
+                                            <div class="text">
+                                                <p class="name">Dmytro</p>
+                                                <p class="text_name">Інформація про роботу, яку він/вона виконав/ла</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <a class="next" onclick="plusSlides(1)">
+                                        <img class="imgForButton" src="./images/Vector 230.png" alt="button">
+                                    </a>
+                                    </div>
+                                </div>
+                            <!-- </div> -->
+                            <div class="style_dot" style="text-align:center">
+                                <span class="dot" onclick="currentSlide(1)"></span> 
+                                <span class="dot" onclick="currentSlide(2)"></span> 
+                                <span class="dot" onclick="currentSlide(3)"></span> 
+                                <span class="dot" onclick="currentSlide(4)"></span> 
+                                <span class="dot" onclick="currentSlide(5)"></span> 
+                                <span class="dot" onclick="currentSlide(6)"></span> 
+                                <span class="dot" onclick="currentSlide(7)"></span> 
+                                <span class="dot" onclick="currentSlide(8)"></span> 
+                            </div>
+                            <div class="custom-image-container">
+                                <img class="line-image" src="./images/Vector 228.png" alt="line">
+                            </div>
+                        </div>        
+                </footer>
+            </aside>
+
+
+
+            <!-- html danya -->
+
+
+
+            <section class="section">
+                <div class="container center">
+                  <p class="txts">Обери вченого/их</p>
+                  <ul class="list">
+                    <li class="item-list"></li>
+                    <li class="item-list"></li>
+                    <li class="item-list"></li>
+                    <li class="item-list"></li>
+                    <li class="item-list"></li>
+                    <li class="item-list"></li>
+                    <li class="item-list"></li>
+                    <li class="item-list"></li>
+                    <li class="item-list"></li>
+                    <li class="item-list"></li>
+                    <li class="item-list"></li>
+                    <li class="item-list"></li>
+                  </ul>
+                  <div class="for-list">
+                    <ul class="list2">
+                      <button class="item-list2" id="1">
+                        <p class="txt-item-list2">Які вчені народилися в 19 ст.</p>
+                      </button>
+                      <button class="item-list2" id="2">
+                        <p class="txt-item-list2">Відсортувати вчених за алфавітом</p>
+                      </button>
+                      <button class="item-list2" id="3">
+                        <p class="txt-item-list2">
+                          Відсортувати вчених за кількістю прожитих років
+                        </p>
+                      </button>
+                      <button class="item-list2" id="4">
+                        <p class="txt-item-list2">
+                          Знайти вченого, який народився найпізніше
+                        </p>
+                      </button>
+                    </ul>
+                    <ul class="list2">
+                      <button class="item-list2" id="5">
+                        <p class="txt-item-list2">
+                          Знайти рік народження Albert Einshtein
+                        </p>
+                      </button>
+                      <button class="item-list2" id="6">
+                        <p class="txt-item-list2">
+                          Знайти вчених, прізвища яких починаються на літеру “С”
+                        </p>
+                      </button>
+                      <button class="item-list2" id="7">
+                        <p class="txt-item-list2">
+                          Видалити всіх вчених, ім’я яких починається на “А”
+                        </p>
+                      </button>
+                      <button class="item-list2" id="8">
+                        <p class="txt-item-list2">
+                          Знайти вченого, який прожив найдовше і вченого, який прожив
+                          найменше
+                        </p>
+                      </button>
+                    </ul>
+                  </div>
+          
+                  <ul class="list2">
+                    <li class="item-list2 last-item">
+                      <button class="item-list2" id="9">
+                        <p class="txt-item-list2">
+                          1. Знайти вчених, в яких співпадають перші літери імені і
+                          прізвища
+                        </p>
+                      </button>
+                    </li>
+                  </ul>
+                </div>
+              </section>
+              <footer class="footer">
+                <div class="containerFooter">
+                  <ul class="listFirst firstlist">
+                    <img src="./imgs/footer.png" alt="Coading" />
+                  </ul>
+                  <ul class="listSecond">
+                    <li class="itemListSecond">
+                      <a href="tel:+381234567890">Тел: +38 (123) 456 78 90</a>
+                    </li>
+                    <li class="itemListSecond">
+                      <a href="mailto:codingmagic@gmail.com"
+                        >E-Mail: codingmagic@gmail.com</a
+                      >
+                    </li>
+                    <li class="itemListSecond">
+                      <a href="https://www.facebook.com/?locale=uk_UA" target="_blank"
+                        >Facebook: CodingMagic</a
+                      >
+                    </li>
+                    <li class="itemListSecond">
+                      <a href="https://x.com/?lang=uk&mx=2" target="_blank"
+                        >Twitter: CodingMagic</a
+                      >
+                    </li>
+                    <li class="itemListSecond">
+                      <a href="https://www.instagram.com" target="_blank"
+                        >Instagram: CodingMagic</a
+                      >
+                    </li>
+                  </ul>
+                  <div>
+                    <ul class="listThird">
+                      <li>
+                        <form action="" class="forms">
+                          <input
+                            class="inputs"
+                            type="email"
+                            placeholder="Ваша ел. адреса..."
+                          />
+                          <button class="buttons">
+                            <span class="spans">Підписатись</span>
+                          </button>
+                        </form>
+                      </li>
+                    </ul>
+                    <p class="txtListThird">
+                      *Підписавшись, Ви зможете ортимувати інформаццію про новинки на
+                      сайті
+                    </p>
+                  </div>
+                </div>
+                <div id="modal">
+                  <div id="modal_backgroung"></div>
+                  <div id="modal_window">
+                    <div id="modal_close">&#10006;</div>
+                    <div id="modal_title"></div>
+                    <div id="modal_text">
+                      <div class="for-modal">
+                        <img src="./images/footer.png" alt="" />
+                        <p class="text-of-modal">Дякую за підписку!</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </footer>
     <script src="/index.js"></script>
 </body>
 </html>

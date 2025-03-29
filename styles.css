@@ -12,6 +12,7 @@ header {
     background: #fff;
     color: #000;
     border-bottom: 1px solid #ddd;
+    width: 100%;
 }
 .logo {
     display: flex;
@@ -67,29 +68,20 @@ nav ul li a:hover {
     font-size: 14px;
     color: #000;
 }
-/* .v112 {
-    position: absolute;
-}
-.v10 {
-    position: absolute;
-    order: 1;
-} */
 .g141 {
     position: absolute;
     width: 100%;
     z-index: -2;
 }
 .r31 {
-/* Rectangle 31 */
 position: absolute;
-width: auto;
-height: 3202px;
+width: 75%;
+height: 4000px;
 left: 175px;
-right: 175px;
-top: 80px;
+top: 50px;
     z-index: -1;
 }
-.section {
+.section1 {
     text-align: center;
     padding: 40px;
 
@@ -124,7 +116,7 @@ top: 80px;
     justify-content: center;
     align-items: center;
     margin-top: 20px;
-    margin-left: 600px;
+    margin-left: 0px;
     margin-bottom: 40px;
     width: 215px;
     height: 35px;
@@ -265,4 +257,1076 @@ top: 80px;
     .first-game {
         margin-bottom: 70px;
     }
+}
+
+/* css rodion */
+
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f4f4f4;
+  }
+  
+  h1 {
+    margin-top: 20px;
+    font-size: 24px;
+  }
+  
+  .choices {
+    margin-top: 40px;
+  }
+  
+  .choice {
+    display: inline-block;
+    margin: 10px;
+    padding: 20px;
+    background-color: #fff;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+  }
+  
+  .choice:hover {
+    transform: scale(1.1);
+  }
+  
+  .result {
+    margin-top: 20px;
+    font-size: 20px;
+    color: green;
+  }
+  
+  .score {
+    margin-top: 30px;
+    font-size: 18px;
+  }
+  
+  .score p {
+    margin: 5px;
+  }
+  
+  .btn-computer {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  
+  .btn-computer:hover {
+    background-color: #0056b3;
+  }
+  
+  /* калькулятор */
+  
+  .block1{
+    display: flex;
+  }
+  
+  .block2{
+    display: flex;
+  }
+  
+  .buttons {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 616px;
+    max-width: fit-content;
+  }
+  
+  .calculator {
+    position: relative;
+  }
+  
+  /* калькулятор часу */
+  
+  .input-container {
+              display: flex;
+              align-items: center;
+              background: #ddd;
+              border-radius: 30px;
+              padding: 5px;
+          }
+          input {
+              border: none;
+              background: none;
+              outline: none;
+              padding: 10px;
+              font-size: 16px;
+              width: 150px;
+          }
+          .search-btn {
+              background: black;
+              color: white;
+              border: none;
+              border-radius: 30px;
+              padding: 10px;
+              cursor: pointer;
+          }
+          .search-btn img {
+              width: 16px;
+              height: 16px;
+          }
+          .output {
+              margin-top: 10px;
+              font-size: 18px;
+          }
+
+          /* css dmytro */
+
+
+          body{
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+            gap: 36px;
+            background-image: url(./images/background.png);
+            background-repeat: no-repeat;
+            background-size: 100%;
+        }
+        .aside{
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+            width: 99%;
+        }
+        .container{
+        
+        }
+        /* header */
+        .header{
+            background-color: white;
+            width: 80%;
+        }
+        .inner-container{
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+            gap: 36px;
+        }
+        .content{
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+            gap: 36px;
+        }
+        .title{
+            height: 20px;
+            font-family: Montserrat Alternates;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 20px;
+            letter-spacing: 0%;
+            text-align: left;
+            margin: 0;
+            padding-top: 36px;
+        }
+        .dinosaur-image{
+            width: 720px;
+            height: 241px;
+        }
+        .line-container{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .line-image{
+            width: 536px;
+        }
+        /* header-end */
+        
+        /* nav */
+        .nav-content{
+            background-color: white;
+            width: 80%;
+            padding-top: 36px;
+        }
+        .container_ball{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            gap: 36px;
+        }
+        .footBall_box{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .football_text{
+            margin: 0;
+            height: 20px;
+            font-family: Montserrat Alternates;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 20px;
+            letter-spacing: 0%;
+            text-align: left;
+        }
+        .field {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-image: url(./images/Rectangle\ 33.png);
+            background-size: 100%;
+            background-repeat: no-repeat;
+            position: relative;
+            width: 720px;
+            height: 220px; 
+            overflow: hidden;
+        }
+        .ball {
+            border-radius: 50%;
+            transition: all 0.5s ease;
+            position: absolute;
+        }
+        .ball-image{
+            width: 60px;
+            height: 60px;
+        }
+        /* nav-end */
+        
+        /* section */
+        .section{
+            background-color: white;
+            width: 80%;
+            padding-top: 36px;
+        }
+        .number-input-wrapper{
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+            gap: 36px;
+        }
+        .number-input-content{
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+            gap: 36px;
+        }
+        .instruction-text{
+            margin: 0;
+            height: 20px;
+            font-family: Montserrat Alternates;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 20px;
+            letter-spacing: 0%;
+            text-align: left;
+        }
+        .button-group{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 38px; 
+        }
+        .number-button{
+            cursor: pointer;
+            padding: 10px 20px;
+            border-radius: 20px;
+            border-color: rgb(215, 215, 215);
+            box-shadow: 3px 3px 0px 0px rgba(0, 0, 0, 0.25);
+            background-color: rgb(215, 215, 215);
+        
+            flex: 1;
+            color: rgb(126, 126, 126);
+            padding: 0.5rem;
+            text-align: center;
+            text-decoration: none;
+            transition: all 0.5s ease-out;
+            transform: scale(1);
+            transition-duration: 0.5s;
+        }
+        .number-button:hover, .number-button:focus{
+            background-color: rgb(182, 182, 182);
+            color: #fff;
+            border-color: rgb(182, 182, 182);
+            transform: scale(0.99);
+        }
+        .largest-number{
+            margin: 0;
+            height: 15px;
+            font-family: Montserrat Alternates;
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 15px;
+            letter-spacing: 0%;
+            text-align: left;
+        }
+        /* section-end */
+        
+        /* footer */
+        .footer{
+            background-color: white;
+            width: 80%;
+            padding-top: 36px;
+        }
+
+
+
+
+
+
+
+
+
+        .imgForSlider{
+            overflow: hidden;
+            width: 150px;
+            height: 150px;
+            border-radius: 20px;
+        }
+        .container_box{
+          width: 100%;
+          display: flex;
+          justify-content: center;
+          flex-direction: column;
+          align-items: center;
+          gap: 36px;
+        }
+        .team-container{
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          gap: 36px;
+        }
+        .team-member{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .team-title{
+            margin: 0;
+            height: 20px;
+            font-family: Montserrat Alternates;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 20px;
+            letter-spacing: 0%;
+            text-align: left;
+        }
+        .slideshow-container {
+            width: 100%;
+        }
+        .buttton_click_slide_box{
+            display: flex;
+            width: 100%;
+            justify-content: center;
+            align-items: center;
+            gap: 100%;
+        }
+        .use_box{
+        
+        }
+        .imgForButton{
+            overflow: hidden;
+            width: 50px;
+            height: 100px;
+        }
+        .prev, .next {
+            cursor: pointer;
+        }
+        .next {
+        
+        }
+        .prev:hover, .next:hover {
+          text-decoration: none;
+          transition: 0.6s ease;
+        }
+        .text {
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+            font-size: 15px;
+            text-align: center;
+            gap: 20px;
+        }
+        .name{
+            height: 17px;
+            font-family: Montserrat Alternates;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 17px;
+            letter-spacing: 0%;
+            text-align: center;
+            margin: 0;
+        }
+        .text_name{
+            width: 244px;
+            height: 15px;
+            font-family: Montserrat Alternates;
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 15px;
+            letter-spacing: 0%;
+            text-align: center;
+            margin: 0;
+        }
+        .mySlides_fade{
+        
+        }
+        .numbertext {
+        
+        }
+        .style_dot{
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          gap: 6px;
+        }
+        .dot {
+            cursor: pointer;
+            height: 3px;
+            width: 18px;
+            background-color: #bbb;
+            display: inline-block;
+            border-radius: 3px;
+            transition: all 0.5s ease-out;
+            transform: scale(1);
+            transition-duration: 0.5s;
+        }
+        .active, .dot:hover, .dot:focus{
+            background-color: #717171;
+            animation: linear;
+            animation-duration: 0.3s;
+            animation-delay: 0.2s;
+            width: 25px;
+            height: 3px;
+        
+            background-color: #525252;
+            color: #fff;
+            border-color: #525252;
+            transform: scale(0.99);
+        }
+        .fade {
+            animation-name: fade;
+            animation-duration: 1.5s;
+        }
+        .custom-line-image{
+           
+        }
+        /* footer-end */
+        
+        /* adaptive */
+        @media (max-width: 1034px) {
+            .dinosaur-image{
+                width: 520px;
+                height: 160px;
+            }
+        
+            .title, .football_text, .instruction-text, .team-title{
+                font-size: 14px;
+            }
+            .text_name{
+                font-size: 9px;
+            }
+        
+            .container_ball, .number-input-wrapper, .team-container {
+                flex-direction: column;
+            }
+        
+            .button-group {
+                flex-direction: column;
+                gap: 20px;
+            }
+        
+            .number-button {
+                width: 100%;
+                padding: 12px;
+            }
+        
+        
+            .buttton_click_slide_box{
+                width: 10%;
+            }
+            .container_box{
+                display: flex;
+                justify-content: center;
+            }
+            .slideshow-container{
+                width: 100%;
+            }
+        
+            .field{
+                width: 520px;
+                height: 160px;
+            }
+        
+            .line-image{
+                width: 436px;
+            }
+        
+            .ball {
+        
+            }
+            .ball-image{
+                width: 45px;
+                height: 45px;
+            }
+        }
+        @media (max-width: 656px) {
+            .field{
+                width: 420px;
+                height: 130px;
+            }
+        }
+        @media (max-width: 514px) {
+            .dinosaur-image{
+                width: 390px;
+                height: 110px;
+            }
+        
+            .title, .football_text, .instruction-text, .team-title{
+                font-size: 12px;
+            }
+        
+            .container_ball, .number-input-wrapper, .team-container {
+                flex-direction: column;
+            }
+        
+            .button-group {
+                flex-direction: column;
+                gap: 20px;
+            }
+        
+            .number-button {
+                width: 100%;
+                padding: 10px;
+                font-size: 12px;
+            }
+        
+        
+            .buttton_click_slide_box{
+                width: 5%;
+            }
+            .container_box{
+                display: flex;
+                justify-content: center;
+            }
+            .slideshow-container{
+                width: 100%;
+            }
+        
+            .field{
+                width: 320px;
+                height: 100px;
+            }
+        
+            .line-image{
+                width: 236px;
+                height: 1px;
+            }
+        
+            .imgForButton{
+                width: 40px;
+                height: 40px;
+            }
+        
+            .ball {
+        
+            }
+            .ball-image{
+                width: 30px;
+                height: 30px;
+            }
+        
+            .imgForSlider{
+                width: 100px;
+                height: 100px;
+            }
+            .text_name{
+                width: 160px;
+            }
+            .style_dot{
+                gap: 2px;
+            }
+            .dot{
+                height: 2px;
+                width: 10px;
+            }
+            .active, .dot:hover, .dot:focus{
+                width: 12px;
+                height: 2px;
+            }
+        }
+        
+        @media (max-width: 380px) {
+            .dinosaur-image{
+                width: 290px;
+                height: 70px;
+            }
+        
+            .title, .football_text, .instruction-text, .team-title{
+                font-size: 12px;
+            }
+        
+            .container_ball, .number-input-wrapper, .team-container {
+                flex-direction: column;
+            }
+        
+            .button-group {
+                flex-direction: column;
+                gap: 20px;
+            }
+        
+            .number-button {
+                width: 100%;
+                padding: 10px;
+                font-size: 10px;
+            }
+        
+        
+            .buttton_click_slide_box{
+                width: 0;
+            }
+            .container_box{
+                display: flex;
+                justify-content: center;
+            }
+            .slideshow-container{
+                width: 100%;
+            }
+        
+            .field{
+                width: 200px;
+                height: 65px;
+            }
+        
+            .largest-number{
+                font-size: 10px;
+                width: 160px;
+            }
+        
+            .line-image{
+                width: 156px;
+                height: 1px;
+            }
+        
+            .imgForButton{
+                width: 20px;
+                height: 20px;
+            }
+        
+            .ball {
+        
+            }
+            .ball-image{
+                width: 30px;
+                height: 30px;
+            }
+        
+            .imgForSlider{
+                width: 100px;
+                height: 100px;
+            }
+        
+            .text_name{
+                width: 160px;
+            }
+        
+            .style_dot{
+                gap: 2px;
+            }
+            .dot{
+                height: 2px;
+                width: 10px;
+            }
+        
+            .active, .dot:hover, .dot:focus{
+                width: 12px;
+                height: 2px;
+            }
+        }
+
+        /* css danya */
+
+
+        /* Указываем box sizing */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Убираем внутренние отступы */
+ul[class],
+ol[class] {
+  padding: 0;
+}
+
+/* Убираем внешние отступы */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul[class],
+ol[class],
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+/* Выставляем основные настройки по-умолчанию для body */
+body {
+  min-height: 100vh;
+  scroll-behavior: smooth;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+}
+
+/* Удаляем стандартную стилизацию для всех ul и il, у которых есть атрибут class*/
+ul[class],
+ol[class] {
+  list-style: none;
+}
+
+/* Элементы a, у которых нет класса, сбрасываем до дефолтных стилей */
+a:not([class]) {
+  text-decoration-skip-ink: auto;
+}
+
+/* Упрощаем работу с изображениями */
+img {
+  max-width: 100%;
+  display: block;
+}
+
+/* Указываем понятную периодичность в потоке данных у article*/
+article > * + * {
+  margin-top: 1em;
+}
+input {
+  all: unset;
+}
+/* Наследуем шрифты для инпутов и кнопок */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+/* Удаляем все анимации и переходы для людей, которые предпочитай их не использовать */
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+ul,
+ol {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+/*  */
+/*  */
+/*  */
+/*  */
+a {
+  all: unset;
+}
+.section {
+  background-image: url(./imgs/bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+}
+/* .section {
+  background-image: url(./imgs/bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+  width: 100%;
+} */
+/* @media screen and (max-width: 320px) {
+  .section {
+    background-size: contain; 
+  }
+} */
+
+.container {
+  width: 1090px;
+}
+.center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #ffffff;
+}
+.txts {
+  color: rgb(0, 0, 0);
+  font-family: Montserrat Alternates;
+  font-size: 16px;
+  font-weight: 100px;
+  line-height: 50px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-bottom: 25px;
+}
+.list {
+  /* display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 25%; */
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+  justify-content: center;
+  width: fit-content;
+}
+.item-list {
+  width: 100px;
+  height: 100px;
+  border-radius: 20px;
+  background: rgb(217, 217, 217);
+  text-align: center;
+}
+.item-list {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.item-list {
+  color: rgb(0, 0, 0);
+  font-family: Montserrat Alternates;
+  text-align: center;
+}
+.item-list {
+  margin-bottom: 36px;
+}
+/*  */
+.item-list2 {
+  border-radius: 20px;
+
+  box-shadow: 3px 3px 0px 0px rgba(0, 0, 0, 0.25);
+  background: rgb(0, 0, 0);
+  display: flex;
+  justify-content: center;
+}
+.txt-item-list2 {
+  color: rgb(255, 255, 255);
+  font-family: Montserrat Alternates;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 15px;
+  letter-spacing: 0%;
+  padding: 15px;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.for-list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.list2 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.last-item {
+  margin-top: 20px; /* Відступ зверху */
+  align-self: center; /* Вирівнювання по центру */
+}
+/* footer */
+/* */
+/*  */
+.footer {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.containerFooter {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  /* margin-left: 80px; */
+}
+a {
+  cursor: pointer;
+}
+
+.itemListSecond {
+  color: rgb(0, 0, 0);
+  font-family: Montserrat Alternates;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 170%;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.txtListThird {
+  color: rgb(0, 0, 0);
+  font-family: Montserrat Alternates;
+  font-size: 8px;
+  font-weight: 400;
+  line-height: 7px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-top: 25px;
+}
+.buttons {
+  border-radius: 20px;
+  padding: 9px;
+  background: rgb(0, 0, 0);
+}
+.inputs {
+  border-radius: 20px;
+  margin-right: 35px;
+  box-shadow: none;
+  background: rgb(215, 215, 215);
+  padding: 13px;
+}
+.spans {
+  color: rgb(255, 255, 255);
+  font-family: Montserrat Alternates;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 15px;
+  text-align: left;
+  padding: 20px;
+}
+/* модалка */
+
+#modal {
+  display: none;
+}
+#modal_backgroung {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background-color: #000000;
+  opacity: 0.8;
+  z-index: 90;
+}
+#modal_window {
+  position: fixed;
+  padding: 5px;
+  background: #ffffff;
+  width: 50%;
+  max-width: 100%;
+  min-height: 150px;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  opacity: 1;
+  z-index: 99;
+}
+#modal_close {
+  position: absolute;
+  top: -2px;
+  right: -3px;
+  width: 25px;
+  height: 25px;
+  color: red;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+}
+#modal_title {
+  text-align: center;
+  font-weight: bold;
+}
+#modal_text {
+  font: 14px Arial;
+}
+.for-modal {
+  display: flex;
+  justify-content: center;
+}
+.text-of-modal {
+  position: absolute;
+  margin-top: 50px;
+}
+.text-of-modal {
+  color: rgb(0, 0, 0);
+  font-family: Montserrat Alternates;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+@media screen and (max-width: 1200px) {
+  .firstlist {
+    display: none;
+  }
+  .list {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    justify-content: center;
+    width: fit-content;
+    margin: 0 auto;
+  }
+}
+@media screen and (max-width: 820px) {
+  .inputs {
+    margin-right: 0px;
+  }
+}
+@media screen and (max-width: 660px) {
+  .forms {
+    display: none;
+  }
+  .txtListThird {
+    display: none;
+  }
+  .containerFooter {
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 420px) {
+  .firstlist {
+    display: none;
+  }
+  .list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    justify-content: center;
+    width: fit-content;
+    margin: 0 auto;
+  }
+  .list2 {
+    width: 50%;
+  }
 }
